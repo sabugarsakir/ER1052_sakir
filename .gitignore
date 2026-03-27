@@ -1,0 +1,20 @@
+# Ignore Laravel sensitive files and dependencies
+taskvault/.env
+taskvault/vendor/
+taskvault/node_modules/
+taskvault/public/storage
+taskvault/public/build
+taskvault/storage/*.key
+taskvault/storage/framework/cache/data/*
+taskvault/storage/framework/sessions/*
+taskvault/storage/framework/testing/*
+taskvault/storage/framework/views/*
+taskvault/storage/logs/*.log
+taskvault/database/*.sqlite
+taskvault/database/*.sqlite-journal
+
+# General ignores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
